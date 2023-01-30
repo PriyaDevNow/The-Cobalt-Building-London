@@ -1,0 +1,33 @@
+body {
+    color: #03045E;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*----Header----*/
+
+#navbar {
+    background-color: #ff9f1c;
+    font-weight: bold; 
+    font-size: larger;      
+}
+
+.nav-link {
+    color: #03045E;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link:active {
+    color: #fff;
+}
+
+.btn-primary {
+    background-color: #03045E;
+    color: #ffbf69;
+}
+
+.highlighted {
+color: #e5edf5;
+}
