@@ -85,18 +85,9 @@ color: #e5edf5;
     background-color: #ffbf69;
 }
 
-.photoedge
-{--bs-border-color:#03045E;
+.photoedge{
+    --bs-border-color:#03045E;
 }
-
-
-
-
-
-
-
-
-
 
 /*----Footer----*/
 
@@ -120,3 +111,13 @@ color: #e5edf5;
     color: #03045E;  
 }
 
+
+/*---Building---*/
+
+.pageheading1, .pageheading2, .pageheading3 {
+    background-color: #ffbf69;
+}
+
+.card-body {
+    background-color: #e5edf5;
+}
