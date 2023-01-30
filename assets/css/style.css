@@ -65,6 +65,30 @@ color: #e5edf5;
     border-radius: 5px;
 }
 
+/*----Headline----*/
+
+.headline {
+    background-color: #00B4D8;
+}
+
+/*----Featurettes----*/
+
+#featurette1 {
+    background-color: #ffbf69;
+}
+
+#featurette2 {
+    background-color: #00B4D8;
+}
+
+#featurette3 {
+    background-color: #ffbf69;
+}
+
+.photoedge
+{--bs-border-color:#03045E;
+}
+
 
 
 
