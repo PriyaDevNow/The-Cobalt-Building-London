@@ -34,6 +34,42 @@ color: #e5edf5;
 
 
 
+/*----Hero Image----*/
+
+.building-name {
+    margin-top: 20%;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+.hero-image {
+    min-height: 20%;
+}
+
+.bs-hero-text-position {
+    position: absolute;
+    top: 15%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: #03045E;
+}
+
+.bs-hero-text-formatting {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: max-content;
+    font-weight: 400;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
 
 
 
