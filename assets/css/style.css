@@ -137,7 +137,10 @@ color: #e5edf5;
     position:absolute;
   }
 
-
+.featurerow {
+    margin-right:0;
+    margin-left:0; 
+}
   
 
 /*---History---*/
@@ -336,6 +339,7 @@ color: #e5edf5;
     }
 }
 
-.card-body
-{--bs-border-color:#03045E;
+.card-body{
+    --bs-border-color:#03045E;
 }
+
