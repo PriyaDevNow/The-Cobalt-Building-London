@@ -20,19 +20,19 @@
     <header class="d-flex flex-wrap navbar-expand-lg align-items-center justify-content-center justify-content-md-between">
 
         <div class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
-            <img src="assets/images/images_home/CBnewlogo.jpg" alt="Logo of The Cobalt Building" class="rounded bi me-2" width="100" height="80" aria-label="CG Logo">
+            <img src="assets/images/images_home/CBnewlogo.jpg" alt="Logo of The Cobalt Building" aria-label-by="Logo in navbar" class="rounded bi me-2" width="100" height="80" aria-label="CB Logo">
         </div>
 
         <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="index.html" class="active nav-link px-4">HOME</a></li>
+            <li><a href="index.html" class="nav-link px-4">HOME</a></li>
             <li><a href="ourbuilding.html" class="nav-link px-4 highlighted">THE COBALT BUILDING</a></li>
             <li><a href="location.html" class="nav-link px-4">LOCATION</a></li>
             <li><a href="history.html" class="nav-link px-4">HISTORY</a></li>
         </ul>
 
-        <div class="col-md-3 text-end">
-            <a href="https://portal.premierestateslimited.com/tenantportal/"><button type="button" class="btn btn-primary">Leaseholder Portal</button></a>
-        </div>
+        <div class="d-none d-xxl-block col-xxl-3 text-end">
+          <a href="https://portal.premierestateslimited.com/tenantportal/" target="_blank"><button type="button" class="btn btn-primary">Leaseholder Portal</button></a>
+      </div>
 
     </header>
 </div>
@@ -53,8 +53,7 @@
       <div class="row" data-masonry='{"percentPosition": true }'>
           <div class="col-sm-6 col-lg-4 mb-4">
             <div class="card">
-              <img class="d-block mx-auto mt-2" src=assets/images/images_building/kitchen.jpg
-              alt="Kitchen" style="width:100%; height:200%;">
+              <img class="d-block mx-auto mt-2" src=assets/images/images_building/kitchen.jpg alt="Kitchen" aria-label="kitchen" style="width:100%; height:200%;">
               <div class="card-body">
                 <h5 class="card-title">Fully integrated modern kitchen</h5>
                 <p class="card-text">allowing for high quality appliances</p>
@@ -77,8 +76,7 @@
           </div>
           <div class="col-sm-6 col-lg-4 mb-4">
             <div class="card">
-              <img class="d-block mx-auto mt-2" src="assets/images/images_building/FrontBuildingView.jpg"
-              alt="Front view of the Cobalt Building" style="width:100%; height:400%;">
+              <img class="d-block mx-auto mt-2" src="assets/images/images_building/FrontBuildingView.jpg" alt="Front view of the Cobalt Building" aria-label="front view of the Cobalt Building" style="width:100%; height:400%;">
               <div class="card-body">
                 <h5 class="card-title">7 storeys comprising:</h5>
                   <ul class="card-text">
@@ -120,8 +118,7 @@
           </div>
           <div class="col-sm-6 col-lg-4 mb-4">
             <div class="card">
-              <img class="d-block mx-auto mt-2" src="assets/images/images_building/bedroom.jpg"
-              alt="Bedroom" style="width:100%; height:260%">
+              <img class="d-block mx-auto mt-2" src="assets/images/images_building/bedroom.jpg" alt="Bedroom" aria-label="bedroom" style="width:100%; height:260%">
             </div>
           </div>
           <div class="col-sm-6 col-lg-4 mb-4">
@@ -136,8 +133,7 @@
             </div>
           </div>   <div class="col-sm-6 col-lg-4 mb-4">
               <div class="card">
-                <img class="d-block mx-auto mt-2" src="assets/images/images_building/lounge2.jpeg"
-                alt="Lounge" style="width:100%; height:260%">
+                <img class="d-block mx-auto mt-2" src="assets/images/images_building/lounge2.jpeg" alt="Lounge" aria-label="lounge" style="width:100%; height:260%">
               </div>
             </div>
   
@@ -158,73 +154,72 @@
   
 <div class="row border-bottom border-5"></div>
 
-  <!---START Footer-->
-    <footer>
+<!---START Footer-->
+<footer>
         
-      <div class="end-footer container-fluid py-1 py-lg-3">
-          <div class="row justify-content-center">
-              <!---first column-->
-              <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                  <h3 class="fs-6 fw-bold">ABOUT</h3>
-                  <ul class="list-unstyled">
-                      <li class="fw-normal">The Cobalt Building</li>
-                      <li class="fw-normal">Bridgewater Square</li>
-                      <li class="fw-normal">London</li>
-                      <li class="fw-normal">EC2Y 8AH</li>
-                  </ul>
-              </div>
-              <!---second column-->
-              <div class="col-sm-2 col-md-3 text-center text-lg-start d-flex flex-column item">
-                  <h3 class="fs-6 fw-bold">CONTACT</h3>
-                  
-                  <!---CML MODAL button -->
-                  <button type="button" class="btn btn-primary text-lg-start" data-bs-toggle="modal"
-                      data-bs-target="#RMCModal">
-                      Resident Management Company
-                  </button>
-                  <div class="py-2"></div>
-                  <!---PEL MODAL button -->
-                  <button type="button" class="btn btn-primary text-lg-start" data-bs-toggle="modal"
-                      data-bs-target="#PELModal">Property
-                      Manager
-                  </button>
+  <div class="end-footer container-fluid py-1 py-lg-3">
+      <div class="row justify-content-center">
+          <!---first column-->
+          <div class="col-3 text-center text-lg-start d-flex flex-column item">
+              <h3 class="fs-6 fw-bold">ABOUT</h3>
+              <ul class="list-unstyled">
+                  <li class="fw-normal">The Cobalt Building</li>
+                  <li class="fw-normal">Bridgewater Square</li>
+                  <li class="fw-normal">London</li>
+                  <li class="fw-normal">EC2Y 8AH</li>
+              </ul>
+          </div>
+          <!---second column-->
+          <div class="d-none d-sm-block col-sm-3 text-center text-lg-start d-flex flex-column item">
+              <h3 class="fs-6 fw-bold">CONTACT</h3>
+              
+              <!---CML MODAL button -->
+              <button type="button" class="btn btn-primary text-lg-start" data-bs-toggle="modal"
+                  data-bs-target="#RMCModal">
+                  Resident Management Company
+              </button>
+              <div class="py-2"></div>
+              <!---PEL MODAL button -->
+              <button type="button" class="btn btn-primary text-lg-start" data-bs-toggle="modal"
+                  data-bs-target="#PELModal">Property
+                  Manager
+              </button>
 
-              </div>
+          </div>
 
-              <!---third column-->
-              <div class="col-sm-2 col-md-3 text-center text-lg-start d-flex flex-column item">
-                  <h3 class="fs-6 fw-bold">SOCIALS</h3>
-                  <ul class="list-unstyled py-2">
-                      <li><a class="socialicons mb-2" href="https://en-gb.facebook.com/"><i class="bi bi-facebook"></i></a></li>
-                      <hr>
-                      <li><a class="socialicons" href="https://twitter.com/"><i class="bi bi-twitter"></i></a></li>
-                  </ul>
-              </div>
+          <!---third column-->
+          <div class="d-none d-sm-block col-sm-3 text-center text-lg-start d-flex flex-column item">
+              <h3 class="fs-6 fw-bold">SOCIALS</h3>
+              <ul class="list-unstyled py-2">
+                  <li><a class="socialicons mb-2" href="https://en-gb.facebook.com/" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                  <hr>
+                  <li><a class="socialicons" href="https://twitter.com/" target="_blank"><i class="bi bi-twitter"></i></a></li>
+              </ul>
+          </div>
 
-              <!---fourth column-->
-              <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column item">
-                  <h3 class="fs-6 fw-bold">ACKNOWLEDGEMENT</h3>
-                  <ul class="list-unstyled">
-                      <li>Fred Rodgers, Barbican resident</li>
-                      <li>"The Barbican before Barbican" C Sandes</li>
-                      <li><a class="link-primary"
-                              href="https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives">London
-                              Metropolitan Archives</a></li>
-                      <li><a class="link-primary" href="https://www.britishmuseum.org/">British Museum</a></li>
-                  </ul>
-              </div>
+          <!---fourth column-->
+          <div class="d-none d-sm-block col-sm-3 text-center text-lg-start d-flex flex-column item">
+              <h3 class="fs-6 fw-bold">ACKNOWLEDGEMENT</h3>
+              <ul class="list-unstyled">
+                  <li>Fred Rodgers, Barbican resident</li>
+                  <li>"The Barbican before Barbican" C Sandes</li>
+                  <li><a class="link-primary"
+                          href="https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives"target="_blank">London
+                          Metropolitan Archives</a></li>
+                  <li><a class="link-primary" href="https://www.britishmuseum.org/" target="_blank">British Museum</a></li>
+              </ul>
+          </div>
 
-              <hr>
-              <div class="d-flex justify-content-between align-items-center pt-1">
-                  <p class="text-muted mb-0">Copyright © 2023 CML</p>
-              </div>
-        
-        </div>
-        </div>
-  </footer>
+          <hr>
+          <div class="d-flex justify-content-between align-items-center pt-1">
+              <p class="text-muted mb-0">Copyright © 2023 CML</p>
+          </div>
+    
+    </div>
+    </div>
+</footer>
 
-  <!---END Footer-->
-
+<!---END Footer-->
  <!-- RMC Modal -->
  <div id="RMCModal" class="modal fade mx-auto tabindex=-1" aria-labelledby="RMCModalLabel" aria-hidden="true">
   <div class="modal-dialog" role="document">
@@ -239,7 +234,7 @@
               <div class="container-lg form-group">
                   <div class="row justify-content-center my-3">
                       <div class="col-lg-12">
-                          <form method="POST" action="#">
+                          <form method="" action="">
                               <input type="hidden" name="_token" value="">
                               <label for="name" class="form-label">Name:</label>
                               <div class="mb-4 input-group">
@@ -300,7 +295,7 @@
                   <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">
-                  <p><i class="bi bi-globe"></i><a href="https://www.premierestateslimited.com/"> Premier Estates Ltd</a></p>
+                  <p><i class="bi bi-globe"></i><a href="https://www.premierestateslimited.com/" target="_blank"> Premier Estates Ltd</a></p>
   
                   <p><i class="bi bi-telephone"></i> 0345 491 8899
                   </p>
