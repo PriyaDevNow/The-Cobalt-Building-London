@@ -33,7 +33,6 @@ color: #e5edf5;
 }
 
 
-
 /*----Hero Image----*/
 
 .building-name {
@@ -85,7 +84,7 @@ color: #e5edf5;
     background-color: #ffbf69;
 }
 
-.photoedge{
+.photoedge {
     --bs-border-color:#03045E;
 }
 
@@ -339,7 +338,7 @@ color: #e5edf5;
     }
 }
 
-.card-body{
+.card-body {
     --bs-border-color:#03045E;
 }
 
