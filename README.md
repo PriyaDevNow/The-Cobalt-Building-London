@@ -60,11 +60,11 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 
 - The website is intended to be accessed by two diverse sets of visitors:
 
-•	Building residents:-
-o	Apartment owners – to access the Leaseholder Portal containing the building policies and service charge accounts of the individual apartment owner
-o	Tenants – over 80% of the apartments are tenanted by City professionals and students with an average tenant turn-around of two years.  So it was important to clearly set out the attractiveness of the Cobalt Building in terms of location and amenities and the history of the area. 
+1.  Building residents:-
+  *	Apartment owners – to access the Leaseholder Portal containing the building policies and service charge accounts of the individual apartment owner
+  *	Tenants – over 80% of the apartments are tenanted by City professionals and students with an average tenant turn-around of two years.  So it was important to clearly set out the attractiveness of the Cobalt Building in terms of location and amenities and the history of the area. 
    
-•	History lovers - Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that and invites users to visit Bridgewater Square.   
+2. History lovers - Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that and invites users to visit Bridgewater Square.   
 
 - Keeping the above, the website is straight to the point and easy to navigate for those seeking information about the building, its location and the history of the area. 
 
@@ -84,7 +84,7 @@ o	Tenants – over 80% of the apartments are tenanted by City professionals and 
   
 ### **1. Strategy**  
 
-- Teh strtaegy was to build an aesthetically pleasing, evocative, easy-to-read and dependable website that delivers clear information about the Cobalt Building and Bridgewater Square, emphasizing the attributes of the Cobalt Building and the development of the area from a natural to a built environment. Each page must be meaningfully portrayed with concise writing and images of historical maps, photos and modern icons.
+- The strtaegy was to build an aesthetically pleasing, evocative, easy-to-read and dependable website that delivers clear information about the Cobalt Building and Bridgewater Square, emphasizing the attributes of the Cobalt Building and the development of the area from a natural to a built environment. Each page must be meaningfully portrayed with concise writing and images of historical maps, photos and modern icons.
 - The solidity of the current building and authenticity of the area’s rich history are carried through the entire website with the use of consistent and neat design, graphics, precise wording and colour.  There is no discrepancy between the website representation and when the user physically visits the Cobalt Building. 
 - Mobile responsiveness is an essential feature required for this website.
   
@@ -122,10 +122,10 @@ o	Tenants – over 80% of the apartments are tenanted by City professionals and 
 
 ### Wireframes  
 <details open>
-<summary>Wireframe for webite</summary>  
+<summary>Wireframe for the 4 pages of the webite - Desktop view</summary>  
 
 ![Wireframe of the 4 pages- Desktop](docs/Wireframes.jpg)
-              
+            
 
 ### **5. Surface**  
 
@@ -146,16 +146,18 @@ o	Tenants – over 80% of the apartments are tenanted by City professionals and 
   
 ![Colour theme swatches](docs/coolors.co_palette_ff9f1c-ffbf69-00b4d8-0077b6-03045e%20(2).png)  
   
-- I experienced an issue with the contrast ratio when putting lengthy blue (#03045E) text against the yellow (#FFBF69) background on the History page.  So I switched the yellow to the off-white (#e5edf5) which then significantly improved the accessibility of my site. The contrast ratio as measured on TPGI website https://www.tpgi.com/color-contrast-checker/ showed the WCAG contrast ratio increasing from 10.9.1 to 15.1 from this change.![Colour contrast ratio for History Page](docs/Contrast%20New.png)  
+- I experienced an issue with the contrast ratio when putting lengthy blue (#03045E) text against the yellow (#FFBF69) background on the History page.  So I switched the yellow to the off-white (#e5edf5) which then significantly improved the accessibility of my site. The contrast ratio as measured on [TPGI website](https://www.tpgi.com/color-contrast-checker/) showed the WCAG contrast ratio increasing from 10.9.1 to 15.1 from this change.
+
+![Colour contrast ratio for History Page](docs/Contrast%20New.png)  
   
 - [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) provided this fantastic resource for checking how accessible your colours are. I submitted my palette to the [Color Blind Safe](https://color.adobe.com/create/color-accessibility) check to find they passed this test also.  
-  
+
 ![Color Blind Safe Check](docs/Color%20Blind%20Safe.png)
   
 ### **Typography**  
   
 - [Google Fonts](https://fonts.google.com/) was used to import the fonts 'Montserrat'.  The Montserrat font has a geometric sans-serif typeface and it was inspired by posters, signs and painted windows from the first half of the twentieth century, seen in the historic Montserrat neighbourhood in Buenos Aires.  I therefore felt it was appropriate to convey the architectural and history aspects of the website.  
-- I used the [Figma font pairing selector] (https://www.figma.com/google-fonts/) to help me choose the Klara font to pair with Montserrat for use in lengthier text bodies. However, I chose to stick with Montserrat.  This would keep the font consistent across the website given the aim was not to make the website over-wordy. 
+- I used the [Figma font pairing selector](https://www.figma.com/google-fonts/) to help me choose the Klara font to pair with Montserrat for use in lengthier text bodies. However, I chose to stick with Montserrat.  This would keep the font consistent across the website given the aim was not to make the website over-wordy. 
   
 ![google Fonts Montserrat](docs/fonts.google.com_specimen_Montserrat_preview.text%3DMontserrat%26preview.text_type%3Dcustom.png)
         
@@ -164,7 +166,7 @@ o	Tenants – over 80% of the apartments are tenanted by City professionals and 
 - I have used different types of imagery so as to remain authentic about the website.  I have used:
   *	Historic photos from books and archives
   * Historic maps - some of which have been made dynamic with modern technology which helped me get a snapshot of the precise area covered in the website
-  * Modern photos from the marketing brochure for the Cobalt building which was published in 1985
+  * Modern photos from the marketing brochure for the Cobalt building which was published in 1995
   * Publicly available photos of apartment interiors from estate agent websites marketing apartments available for sale and rent at the Cobalt Building
   *	Royalty free stock images
   * Bootstrap icons
@@ -436,18 +438,16 @@ For Mobile
 
 ### **Media References**  
   
-- [London Metropolitan Archives] (https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives)
-- City of London Archives
-- [British Museum] (https://www.britishmuseum.org/)
+- [London Metropolitan Archives](https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives)
+- [British Museum](https://www.britishmuseum.org/)
 - [British History Online]( https://www.british-history.ac.uk/)
-
-- [the interactive Ogilby & Morgan Large Scale Map of London as Rebuilt in 1676] (https://www.british-history.ac.uk/no-series/london-map-ogilby-morgan/1676) 
-- [The interactive MOEM AGAS Map] (https://mapoflondon.uvic.ca/map.htm)
-- Old & New London by Thornbury & Edmond book (https://www.british-history.ac.uk/old-new-london/vol1/pp1-16)
+- [the interactive Ogilby & Morgan Large Scale Map of London as Rebuilt in 1676](https://www.british-history.ac.uk/no-series/london-map-ogilby-morgan/1676) 
+- [The interactive MOEM AGAS Map](https://mapoflondon.uvic.ca/map.htm)
+- [Old & New London by Thornbury & Edmond book](https://www.british-history.ac.uk/old-new-london/vol1/pp1-16)
 - The 1995 Marketing Brochure for the Cobalt Building
+- [Dexters estate agents photos of apartments for rent in Bridgewater Square]
 - [Dreamtime] (https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
- 
-- [Google Maps](https://www.google.com/maps) for the map used in this site.
+- [Google Maps](https://www.google.com/maps) for the map used in this website
 
 
 ### **Acknowledgements** 
