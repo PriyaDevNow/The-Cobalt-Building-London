@@ -59,6 +59,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 ### **Visitor Goals** 
 
 - The website is intended to be accessed by two diverse sets of visitors:
+
 •	Building residents:-
 o	Apartment owners – to access the Leaseholder Portal containing the building policies and service charge accounts of the individual apartment owner
 o	Tenants – over 80% of the apartments are tenanted by City professionals and students with an average tenant turn-around of two years.  So it was important to clearly set out the attractiveness of the Cobalt Building in terms of location and amenities and the history of the area. 
@@ -83,46 +84,41 @@ o	Tenants – over 80% of the apartments are tenanted by City professionals and 
   
 ### **1. Strategy**  
 
-- I required an aesthetically pleasing, evocative, easy-to-read and dependable website that delivers clear information about the Cobalt Building and Bridgewater Square emphasizing the attributes of the Cobalt Building and changes from the ancient to the modern times. Each page must be meaningfully portrayed with concise writing and images of historical maps, photos and modern icons.
-- The solidity of the current building and authenticity of the area’s rich history are carried through the entire website with the use of consistent, clean design, graphics, writing and colour.  There is no room for any discrepancy between the website representation and when the user physically visits the Cobalt Building. 
-
+- Teh strtaegy was to build an aesthetically pleasing, evocative, easy-to-read and dependable website that delivers clear information about the Cobalt Building and Bridgewater Square, emphasizing the attributes of the Cobalt Building and the development of the area from a natural to a built environment. Each page must be meaningfully portrayed with concise writing and images of historical maps, photos and modern icons.
+- The solidity of the current building and authenticity of the area’s rich history are carried through the entire website with the use of consistent and neat design, graphics, precise wording and colour.  There is no discrepancy between the website representation and when the user physically visits the Cobalt Building. 
 - Mobile responsiveness is an essential feature required for this website.
   
-
 ### **2. Scope**  
 
-The Cobalt Building site must be available on a wide range of devices due to the two main diverse sets of users being targetted. 
+- The Cobalt Building website must be available on a wide range of devices due to the two main diverse sets of users being targetted. 
 - The site is to contain only essential information presented artistically using the best utility function for each page.  
 - As the information presented on each page will be different, the clever use of the chosen colour palette and styling is essential to make the site cohesive and attractive.
 - Text must be clear and legible on any sized device to allow the user access to all the information.  
-- For future development, form link to the Resident Management Company and the Leaseholder (owners) Portal (currently in the navigation bar and linking to the Property Manager’s resident portal) is to be developed.
+- Future development is to include all elements in the navigation bar and footer to be visible on all devices and the form link to the Resident Management Company to be activated.
   
+### **3. Structure**  
 
-### **3. Structural**  
-
-Similar to the idea for the design and layout to be accessible and functional, simple navigation and interactivity were essential. The site needed to provide information swiftly to all users.  
-- The colour palette was displayed as the background for the hero image on the landing page so the user became familiar with it and to encourage users to take the journey to the other pages.   
-- This is an information rich site. Thus, rounded corners have been used for styling sections so that the site is softer and aesthetically pleasing but it is easier to digest the information.  
-- Easy to identify, clickable links with a consistent layout. In addition, buttons have been used should the user wish to get further information.  
-- Any buttons or links had to clearly state their purpose and any design change upon action followed the flow of the overall aesthetic.  It would have been ideal to provide feedback once the form button was clicked but this was not possible since Javascript is beyond the scope of the technologies allowed for this project). 
-- The main information on all the pages would remain the same on all devices which would strengthen the site’s familiar and trusting feeling.  
+- Similar to the design and layout to be accessible and functional, simple navigation and interactivity are essential. The website needs to provide information swiftly to all users.  
+- The colour palette was displayed as the background for the hero image on the landing page so the user became instantly familiar with it and so as to encourage users to stay on the website and go through it page by page.   
+- This is an information rich website. Thus, rounded corners have been used for styling sections so that the site is not only aesthetically attractive but it is easier to digest the information presented.  
+- The main information on all the pages remains the same on all devices which strengthen the site’s familiar and trusting feeling.  
 - In addition, the navigation bar and footer would be visible on every page and at every device size. However, the information displayed has been tailored for the main expected type of user of the device:
-- apartment owners are likely to use the desktop version so the navigation bar displays the Leaseholder Portal button which they can use to click on to login to the Property Manager’s resident portal to access the Building policies and their service charge records;
+- apartment owners are likely to use the desktop version so the navigation bar displays the Leaseholder Portal button which they can use to click into the Property Manager’s resident portal to access the Building policies and their service charge records;
 - potential new tenants and history lovers would use the mobile version so the footer displays only the address of the building.    
+- Easy to identify, clickable buttons and links with a consistent layout have been used in the navigation bar and footer. 
+- Any buttons or links had to clearly state their purpose and any design change upon action followed the flow of the overall aesthetic.  It would have been ideal to provide feedback once the form button was clicked but this was not possible since Javascript is beyond the scope of the technologies allowed for this project. 
   
 ### **4. Skeleton**  
 
-The site was developed to be simple, clear and educational.  
-
-- For the landing page, the logo,  was to be top-left of every page, no matter the orientation or screen size.  
-- The simple, four-item navigation bar of 'Home', 'The Cobalt Building', ‘Location’ and 'History', is situated always in the centre of the navigation bar.  A mouse hover feature is on each item which turns the text from blue to white. When item is clicked the text turns and stays light grey thus identifying the current page.
+- The site was developed to be simple, clear and educational.  
+- For the landing page, the logo, was to be top-left of every page, no matter the orientation or screen size.  
+- The simple, four-item navigation bar of 'Home', 'The Cobalt Building', ‘Location’ and 'History', is situated always in the centre of the navigation bar.  A mouse hover feature is on each item which turns the text from blue to white. When item is clicked the text turns and stays light grey thus identifying the active page.
 - A large, clear hero image of the Cobalt Building dominates the landing page with its name at the top left in translucent style visible.   
-- Scrolling down the page introduces visitor to a brief, three-piece of information section about the other pages of the website Images are visible on one side with sound-byte headed text on the other side.  The images are arranged in a diametric fashion.  
-- The page ends with the footer, stating information in four columns, the address of the building, the contact information for the Resident Management Company and the Property Manager for the building, social media link and acknowledgment of the sources used to compile the history section of the site.  Under this is a copyright label and the year of site build at the bottom left corner.
-- For The Cobalt Building page, the navigation bar and footer remain as before. Between these lies a heading of the page and below it in masonry format are the photos of an apartment’s interiors and text describing the various attributes of the building.  Information from the marketing brochure for the building and quote from the Lord Mayor in relation to the building are highlighted.    
-  
-- For the Location page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description of the next section which is a 4 square grid.  Each square shows the relevant icon for the places close to the building grouped into a category. Underneath this is  an interactive Google Map with the building location pinned. There is an option to enlarge the map in a new window and find directions.  
-- For the History page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description. A stylised vertical timeline has been used which shows an image on one side and an image on the other.  A central dot separates the two sides.  This is followed in diametric fashion for 6 significant periods when major changes occurred in this area from 1AD to date.   
+- Scrolling down the page introduces the visitor to a brief, three-piece of information section about the other pages of the website. Images are visible on one side with sound-byte headed text on the other side.  The images are arranged in a diametric fashion.  
+- The page ends with the footer, stating information in four columns, the address of the building, the contact information for the Resident Management Company and the Property Manager for the building, social media links and acknowledgment of the credible sources used to compile the history section of the site.  Under this is a copyright label and the year of site build at the bottom left corner.
+- For The Cobalt Building page, the navigation bar and footer remain as before. Between these lies a heading of the page and below it - in masonry format - are the photos of an apartment’s interiors and building exterior as welll as text describing the various attributes of the building.  Information from the marketing brochure for the building and a quote from the Lord Mayor in relation to the building are highlighted.    
+- For the Location page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description of the next section which shows places around the Cobalt Building grouped into 4 categories.  These are arranged 2 categories in each of 2 rwos.  Each category is shown with anicon and text. Underneath this is an interactive Google Map with the building location pinned. There is an option to enlarge the map in a new window and find directions.  
+- For the History page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description. A stylised vertical timeline has been used which shows an image on one side and an image on the other.  A central dot separates the two sides.  This is followed in diametric fashion for 6 significant periods when major changes occurred in this area from 1 AD to date.   
 
 ### Wireframes  
 <details open>
@@ -133,12 +129,11 @@ The site was developed to be simple, clear and educational.
 
 ### **5. Surface**  
 
-- A design was created that allowed a consistent flow throughout the four-page site.   
-- A palette of blues and yellows was created which matched the exterior facade of the Cobalt Building - yello rendering and bricks and cobalt blue balconies.  All the colours were used on each page.      
+- A design was created that allowed a consistent flow throughout the four-page website.   
+- A palette of blues and yellows was created which matched the exterior facade of the Cobalt Building - yellow rendering and bricks and cobalt blue balconies.  All the colours were used on each page.      
 - A clean, sans-serif font, 'Montserrat' was used in a medium weight to provide legible text at any size. 
-- Corners on all elements were rounded to maintain a retro feel. 
-
-Overall, the design was intended to create and foster a feeling of new discovery with the unveiling of its rich past and a deep sense of belonging to the present and in particular to the Cobalt Building.  This would attract users to physically come and see the building.    
+- Corners on all elements were rounded to maintain a soft feel to a hard brick subject matter. 
+- Overall, the design was intended to create and foster a feeling of new discovery with the unveiling of its rich past and a deep sense of belonging to the present and in particular to the Cobalt Building.  This would attract users to physically come and see the building.    
  
 ---   
   
@@ -147,37 +142,36 @@ Overall, the design was intended to create and foster a feeling of new discovery
 
 ### **Color Scheme**  
 
-I used Coolors to create a striking palette from complementary colours of blues and yellows to to capture the sense of pride and significant meaning that the site is conveying.  I combined these with an off-white shade that contrasted beautifully.
+- I used Coolors to create a striking palette from the complementary colours of blue and yellow which capture the sense of pride and significant meaning that the site is conveying.  I combined these with an off-white shade that contrasted beautifully.
   
-![colour theme swatches](docs/documentation/colourtheme.png)  
+![Colour theme swatches](docs/coolors.co_palette_ff9f1c-ffbf69-00b4d8-0077b6-03045e%20(2).png)  
   
-I experienced an issue with the contrast ratio when putting blue (#03045E) lengthy text against the yellow (#FFBF69) background on the History page.  So I switched the yellow to the off-white (#e5edf5) which then significantly improved the accessibility of my site. The contrast ratio as measured on TCG website showed the WCAG contrast ratio increasing from 10.9.1 to 15.1 from this change.![Colour contrast ratio for buttons](docs/documentation/buttoncontrast.png)  
+- I experienced an issue with the contrast ratio when putting lengthy blue (#03045E) text against the yellow (#FFBF69) background on the History page.  So I switched the yellow to the off-white (#e5edf5) which then significantly improved the accessibility of my site. The contrast ratio as measured on TPGI website https://www.tpgi.com/color-contrast-checker/ showed the WCAG contrast ratio increasing from 10.9.1 to 15.1 from this change.![Colour contrast ratio for History Page](docs/Contrast%20New.png)  
   
-[Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) provided this fantastic resource for checking how accessible your colours are. I submitted my palette to the [Color Blind Safe](https://color.adobe.com/create/color-accessibility) check to find they passed this test also.  
+- [Adobe Color](https://color.adobe.com/create/color-contrast-analyzer) provided this fantastic resource for checking how accessible your colours are. I submitted my palette to the [Color Blind Safe](https://color.adobe.com/create/color-accessibility) check to find they passed this test also.  
   
-![Color Blind Safe Check](docs/documentation/cb_safe.png)
+![Color Blind Safe Check](docs/Color%20Blind%20Safe.png)
   
 ### **Typography**  
   
-[Google Fonts](https://fonts.google.com/) was used to import the fonts 'Montserrat'.  The Montserrat font has a geometric sans-serif typeface and it was inspired by posters, signs and painted windows from the first half of the twentieth century, seen in the historic Montserrat neighbourhood in Buenos Aires.  I therefore felt it was appropriate to convey the architectural and history aspects of the website.  I used the Figma selector to help me choose the Klara font to pair with Montserrat for use in lengthy text bodies. However, I chose to stick with Montserrat.  This would keep the font consistent across the website given it is not very wordy. 
+- [Google Fonts](https://fonts.google.com/) was used to import the fonts 'Montserrat'.  The Montserrat font has a geometric sans-serif typeface and it was inspired by posters, signs and painted windows from the first half of the twentieth century, seen in the historic Montserrat neighbourhood in Buenos Aires.  I therefore felt it was appropriate to convey the architectural and history aspects of the website.  
+- I used the [Figma font pairing selector] (https://www.figma.com/google-fonts/) to help me choose the Klara font to pair with Montserrat for use in lengthier text bodies. However, I chose to stick with Montserrat.  This would keep the font consistent across the website given the aim was not to make the website over-wordy. 
   
-![google Fonts Montserrat](docs/documentation/josefinfont.png)
-
+![google Fonts Montserrat](docs/fonts.google.com_specimen_Montserrat_preview.text%3DMontserrat%26preview.text_type%3Dcustom.png)
         
 ### **Imagery**  
   
-I have used different types of imagery so as to remain authentic about the website.  I have used:
--	Historic photos from books and archives
--	Historic maps - some of which have been made dynamic with modern technology which helped me get a snapshot of the precise area covered in the website
--	Modern photos from the marketing brochure for the Cobalt building which was published in 1985
--	Publicly available photos of apartment interiors from estate agent websites marketing apartments available for sale and rent at the Cobalt Building
--	Royalty free stock images
+- I have used different types of imagery so as to remain authentic about the website.  I have used:
+  *	Historic photos from books and archives
+  * Historic maps - some of which have been made dynamic with modern technology which helped me get a snapshot of the precise area covered in the website
+  * Modern photos from the marketing brochure for the Cobalt building which was published in 1985
+  * Publicly available photos of apartment interiors from estate agent websites marketing apartments available for sale and rent at the Cobalt Building
+  *	Royalty free stock images
+  * Bootstrap icons
 I have attributed the sources of the images used in the [Credits](#credits) section of this README doc.
-
 
 ---  
   
-
 ## Page Features  
 
 ### **Navbar**   
@@ -186,7 +180,7 @@ I have attributed the sources of the images used in the [Credits](#credits) sect
 
 ![screenshot of navbar](docs/documentation/navbar.png) 
 </details>
-This remains the same across the four pages, in portrait/landscape and mobile/tablet views.  The Leaseholder Portal button appears for desktop view.
+This remains the same across the four pages, in portrait/landscape and mobile/tablet views, except that the Leaseholder Portal button appears on desktop view only.
   
 <br>  
 
