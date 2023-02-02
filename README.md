@@ -1,7 +1,7 @@
 # The Cobalt Building
 [View live project here on GitHub](https://priyadevnow.github.io/The-Cobalt-Building-London/)
 
-The Cobalt Building is a luxury residential block of apartments which was built in 1995.  It is located in an area of historic significance within the City of London whose development can be credibly traced back to 1 AD.  This website was designed to showcase the Cobalt Building and the area’s heritage over the centuries.  
+The Cobalt Building is a luxury residential block of apartments which was built in 1995.  It is located in an area of historic significance within the City of London whose development can be credibly traced since 1 AD.  This website was designed to showcase the Cobalt Building and the area’s heritage over the centuries.  
 
 <br>  
   
@@ -54,40 +54,34 @@ The Cobalt Building is a luxury residential block of apartments which was built 
 
 ### **Primary Goal**  
   
-The Cobalt Building is a luxury residential block with 59 apartments in Bridgewater Square, London.   The aim of is website is to showcase the building and the history of the area.  It needed a strong, concise and striking website design that reflected the building’s attributes and the area’s importance in the development of the City of London. 
+The Cobalt Building is a luxury residential block with 59 apartments in Bridgewater Square, London.   The aim of this website is to showcase the building and the history of the area.  It needed a strong, succinct and striking website design that reflected the building’s attributes and the area’s importance in the development of the City of London. 
 
 ### **Visitor Goals** 
 
-The website is intended to be accessed by two diverse sets of visitors:
-•	Building residents 
-o	Apartment owners – to  access the Leaseholder portal containing the building policies and service charge accounts of the individual apartment owner
-
+- The website is intended to be accessed by two diverse sets of visitors:
+•	Building residents:-
+o	Apartment owners – to access the Leaseholder Portal containing the building policies and service charge accounts of the individual apartment owner
 o	Tenants – over 80% of the apartments are tenanted by City professionals and students with an average tenant turn-around of two years.  So it was important to clearly set out the attractiveness of the Cobalt Building in terms of location and amenities and the history of the area. 
    
-•	History lovers - The City of London’s origins are from the Roman times when this area was rolling natural hills till its inclusion into the expanded City in the 11th century. This led to the conversion of a watch-tower into a medieval residence with gardens, subsequent redesign of the area in the 18th century into a garden square surrounded by buildings on its edges to the redevelopment and building of the Cobalt Building on the east side of the Square in the 20th century.  Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that to educate and celebrate the unique history of this area.  
+•	History lovers - Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that and invites users to visit Bridgewater Square.   
 
-Keeping the above diverse visitor sets in mind, the website is straight to the point and easy to navigate for those seeking information about the building, its location and the history of the area. 
+- Keeping the above, the website is straight to the point and easy to navigate for those seeking information about the building, its location and the history of the area. 
 
-The site was designed to be responsive to allow visitors to view it from a range of devices with one page flowing seamlessly into another so as to keep the users engaged on each page.   
+- The website has been designed to be responsive to allow visitors to view it from a range of devices with one page flowing seamlessly into another so as to keep the users engaged on each page.   
 
 ### **First Time Visitor**
   - A user can access each page of the site with one click via the navigation bar or by scrolling down the respective sections on the landing page.
-  - A user can access the Leaseholder Portal which has secure login via a button in the navigation bar.
-
-  - A user can see the addresslocation of the buildinbuilding gvia the footer.
-  - A user can find a map to the parlour via the navigation bar and footer.
+  - A user can see the address of the building in the footer.
 
 ### **Returning Visitor**  
-  - The Returning Visitor is one who is seriously interested in the building e.g. as a potential tenant or history lover.  
-- Such a user is likely to use a device larger than a mobile.  
-They will be able to find more relevant information in the footer e.g. social media links. A user can use the contact form for the Resident Management Company and the contact card for the Property Manager to connect with either respectively; a history student can find links for the sources of information collated on this site for further study.
+- The returning visitor is one who is seriously interested in the building e.g. as a potential tenant or history lover.  
+- Such a user is likely to use a device larger than a mobile.  They will be able to find more relevant information in the footer e.g. social media links, contact form for the Resident Management Company and the contact card for the Property Manager; an apartment owner will  see the Leaseholder Portal button on the navigation bar; a history student can find links for the sources of information collated on this website for further study.
   
 --- 
 
 ## Design Process  
   
 ### **1. Strategy**  
-
 
 - I required an aesthetically pleasing, evocative, easy-to-read and dependable website that delivers clear information about the Cobalt Building and Bridgewater Square emphasizing the attributes of the Cobalt Building and changes from the ancient to the modern times. Each page must be meaningfully portrayed with concise writing and images of historical maps, photos and modern icons.
 - The solidity of the current building and authenticity of the area’s rich history are carried through the entire website with the use of consistent, clean design, graphics, writing and colour.  There is no room for any discrepancy between the website representation and when the user physically visits the Cobalt Building. 
@@ -132,36 +126,15 @@ The site was developed to be simple, clear and educational.
 
 ### Wireframes  
 <details open>
-<summary>Wireframe - Homepage Desktop & Mobile</summary>  
+<summary>Wireframe for webite</summary>  
 
-![homepage wireframe-mobile & desktop](docs/documentation/homemd_wireframe.png)
-</details> 
-<details >
-<summary>Wireframe - Menu page Desktop</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/menudesktop_wireframe.png)
-</details> 
-<details>
-<summary>Wireframe - Menu page Mobile</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/menumobile_wireframe.png)
-</details>    
-<details>
-<summary>Wireframe - Contact page Desktop</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/contactdesktop_wireframe.png)
-</details> 
-<details>
-<summary>Wireframe - Contact page Mobile</summary>  
-
-![homepage wireframe-mobile & desktop](docs/documentation/contactmobile_wireframe.png)
-</details>              
+![Wireframe of the 4 pages- Desktop](docs/Wireframes.jpg)
+              
 
 ### **5. Surface**  
 
-A design was created that allowed a consistent flow throughout the four-page site.   
- 
-- A palette of rich blues and yellows was created, similar to the exterior of the Cobalt Building All the colours were used on each page.      
+- A design was created that allowed a consistent flow throughout the four-page site.   
+- A palette of blues and yellows was created which matched the exterior facade of the Cobalt Building - yello rendering and bricks and cobalt blue balconies.  All the colours were used on each page.      
 - A clean, sans-serif font, 'Montserrat' was used in a medium weight to provide legible text at any size. 
 - Corners on all elements were rounded to maintain a retro feel. 
 
