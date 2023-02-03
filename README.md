@@ -282,11 +282,12 @@ As most of the website code was imported from Bootstrap there was already good i
 
 ### **Frameworks, Libraries, Technologies & Programs Used**  
 
-- Bootstrap version 5.2.3 – examples and icons – assisted with styling and responsiveness of website
+- Bootstrap version 5.2.3 – examples and icons – these assisted with styling and responsiveness of website
 - Stockoverflow – to look up code
 - W3 Schools – to look up code
 - Gitpod - used for version control by utilising the Gitpod terminal to commit and push to GitHub
-- GitHub - used to save and store all files for this website after being pushed from Gitpod- Figma – I tried to use it to create wireframes but found it difficult so resorted to pen and paper 
+- GitHub - used to save and store all files for this website after being pushed from Gitpod
+- Figma – I tried to use it to create wireframes but found it difficult so resorted to pen and paper 
 - Coolors – for colour palettes- Adobe Color – for accessibility contrast ratios
 - Canva – for designing the logo
 - Google Fonts – font was imported from here 
@@ -304,14 +305,14 @@ As most of the website code was imported from Bootstrap there was already good i
 GitHub was used to deploy the website. These were the steps taken to achieve this:  
 
 1. Login to GitHub account
-2. Navigate to the project repository, scoops_pp1
+2. Navigate to the project repository: The-Cobalt-Building-London
 3. Click the Settings button near the top of the page
 4. In the left-hand menu, find and click on the Pages button
 5. In the Source section, choose 'main' from the drop-down, select branch menu
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](docs/documentation/deployment.png) 
+![screenshot of how to deploy site on github](docs/github.com_PriyaDevNow_The-Cobalt-Building-London_settings_pages.png) 
 
 ---  
     
@@ -320,11 +321,9 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 
 
 
-I had planned for this site to be accessible and legible on all screen sizes. I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase. 
-
+I had planned for this site to be accessible and legible on all screen sizes. I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase.   
   
-  
-The results of feature testing are as follows: HOW TO CREATE TABLE  
+The results of feature testing are as follows:  
   
 | Page | Test | Pass/Fail |
 | :----| :----| :--------:|
@@ -335,7 +334,6 @@ The results of feature testing are as follows: HOW TO CREATE TABLE
 | Index  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
 | Index  | 'Contact' heading has a form and contact card which are responsive and functional | Pass |
 | All  | Images and sections are responsive in different media sizes | Pass |
-
 | History | History items are clear and legible | Pass |
 | Contact | Google Map is interactive and opens in a new tab for a larger map | Pass |
 
@@ -427,21 +425,20 @@ For Mobile
 ## Credits  
   
 ### **Content References**
-- All the content written for the website is by myself, based on extensive research which I did.
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML/CSS learning material.
+- All the content for the website has been written by myself, based on my extensive research.
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML, CSS, & Bootstrap learning material.
 - [W3Schools](https://www.w3schools.com/) for additional learning material.
-- [Bootstrap example for masonry] (https://getbootstrap.com/docs/5.0/examples/masonry/)
-- [Codepen] (https://codepen.io/Maxalos/pen/MXXqGj) for the stylish vertical responsive timeline
+- [Bootstrap example for masonry](https://getbootstrap.com/docs/5.0/examples/masonry/)
+- [Codepen](https://codepen.io/Maxalos/pen/MXXqGj) for the stylish vertical responsive timeline
 - Fred Rodgers – a neighbour and long-term Barbican resident who provided his paper on the history of the Barbican Wildlife Garden and pointed out further resources to me
-- Jonathan Spengler who pointed me to Caroline Sandes paper on the THE BARBICAN BEFORE BARBICAN: THE HOUSE, ITS HISTORY AND THE ‘IMAGINARY’ WATCHTOWER
+- Jonathan Spengler who pointed me to Caroline Sandes' paper on the THE BARBICAN BEFORE BARBICAN: THE HOUSE, ITS HISTORY AND THE ‘IMAGINARY’ WATCHTOWER
   
-
 ### **Media References**  
   
 - [London Metropolitan Archives](https://www.cityoflondon.gov.uk/things-to-do/history-and-heritage/london-metropolitan-archives)
 - [British Museum](https://www.britishmuseum.org/)
 - [British History Online]( https://www.british-history.ac.uk/)
-- [the interactive Ogilby & Morgan Large Scale Map of London as Rebuilt in 1676](https://www.british-history.ac.uk/no-series/london-map-ogilby-morgan/1676) 
+- [The interactive Ogilby & Morgan Large Scale Map of London as Rebuilt in 1676](https://www.british-history.ac.uk/no-series/london-map-ogilby-morgan/1676) 
 - [The interactive MOEM AGAS Map](https://mapoflondon.uvic.ca/map.htm)
 - [Old & New London by Thornbury & Edmond book](https://www.british-history.ac.uk/old-new-london/vol1/pp1-16)
 - The 1995 Marketing Brochure for the Cobalt Building
@@ -449,12 +446,12 @@ For Mobile
 - [Dreamtime] (https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
 - [Google Maps](https://www.google.com/maps) for the map used in this website
 
-
 ### **Acknowledgements** 
-- I would like to express my deep gratitude to  my course instructor Richey Malhotra for his patience and guidance and most of all for setting me up with the hero image for the landing page of this website
-- I am grateful for the support and help given by my cohort colleagues Rob, Rosie and Sharon for debugging and design   
+
+- I would like to express my deep gratitude to our Bootcamp instructor Richey Malhotra for his patience and guidance and most of all for setting me up with the stylised hero image for the landing page of this website
+- I am grateful for the support and help given by my Bootcamp cohort colleagues Rob, Rosie and Sharon for debugging and design   
 - I am thankful to WAES and the Code Institute for providing this unique opportunity for me to upskill and learn Digital Skills
-- I am grateful to my sister for looking after our parents so I am able to devote time to create this website
+- Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning and creating this website
 
 
 
