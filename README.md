@@ -12,27 +12,30 @@ The Cobalt Building is a luxury residential block of apartments which was built 
 
 ## CONTENTS  
   
-* [UXD (User Experience Design)](#user-experience-ux)
+* [UXD (User Experience)](#user-experience-ux)
   * [User Stories](#user-stories) 
-* [Creation process (Strategy -> Surface)](#creation-process)
+* [Creation Process (Strategy -> Surface)](#creation-process)
+  * [1.Strategy](#1-strategy)
+  * [2. Scope](#2-scope)
+  * [3. Structure](#3-structure)
+  * [4. Skeleton](#4-skeleton)
   * [Wireframes](#wireframes)
+  * [5. Surface](#5-surface)
 * [Design](#design)
   * [Colour Scheme](#color-scheme)
   * [Typography](#typography)
   * [Imagery](#imagery)
 * [Page Features](#page-features)
-  * [Navigation Bar](#navbar)
+  * [Navigation Bar](#navigation-bar)
   * [Hero Image](#hero-image)
-  * [Headlines](#headline)
+  * [Headline](#headline)
   * [Footer](#footer)
   * [Home Page](#home-page)
-  * [Cobalt Building Page](#Cobalt-Building-page)
-  * [Location Page](#Location-page)
-  * [History Page](#History-page)
-* [Tablet & Mobile View](#tablet--mobile-view)
+  * [Cobalt Building Page](#cobalt-building-page)
+  * [Location Page](#location-page)
+  * [History Page](#history-page)
+* [Desktop & Mobile View](#desktop--mobile-view)
   * [Desktop, Tablet & Mobile Differences](#desktop-tablet--mobile-differences)
-  * [Tablet View](#tablet-view-ipad-miniipad-prosurface-pro)
-  * [Mobile View](#mobile-view-iphone-5iphone-seiphone-xriphone-12-pro)
 * [Future Features](#future-features)
 * [Technologies Used](#technologies-used)
   * [Languages Used](#languages-used)
@@ -65,7 +68,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
   *	Apartment owners – to access the Leaseholder Portal containing the building policies and service charge accounts of the individual apartment owner
   *	Tenants – over 80% of the apartments are tenanted by City professionals and students with an average tenant turn-around of two years.  So it was important to clearly set out the attractiveness of the Cobalt Building in terms of location and amenities and the history of the area. 
    
-2. History lovers - Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that and invites users to visit Bridgewater Square.   
+2. History lovers - Bridgewater Square is often overshadowed by its neighbour, the iconic Barbican Estate.  This website attempts to redress that and invites users to visit Bridgewater Square.   This additional set of visitors was identified when the user performas were generated. 
 
 - Keeping the above, the website is straight to the point and easy to navigate for those seeking information about the building, its location and the history of the area. 
 
@@ -81,7 +84,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
   
 --- 
 
-## Design Process  
+## Creation Process  
   
 ### **1. Strategy**  
 
@@ -131,7 +134,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 ### **5. Surface**  
 
 - A design was created that allowed a consistent flow throughout the four-page website.   
-- A palette of blues and yellows was created which matched the exterior facade of the Cobalt Building - yellow rendering and bricks and cobalt blue balconies.  All the colours were used on each page.      
+- A palette of blues and yellows was generated which matched the external facade of the Cobalt Building - yellow rendering and bricks and cobalt blue balconies.  All the colours were used on each page.      
 - A clean, sans-serif font, 'Montserrat' was used in a medium weight to provide legible text at any size. 
 - Corners on all elements were rounded to maintain a soft feel to a hard brick subject matter. 
 - Overall, the design was intended to create and foster a feeling of new discovery with the unveiling of its rich past and a deep sense of belonging to the present and in particular to the Cobalt Building.  This would attract users to physically come and see the building.    
@@ -177,7 +180,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
   
 ## Page Features  
 
-### **Navigation bar**   
+### **Navigation Bar**   
 <details open>
 <summary></summary>  
 
@@ -204,6 +207,18 @@ The striking hero image remains the same across all devices, in portrait/landsca
 
 <br> 
 
+### **Headline** 
+
+<details open>  
+<summary></summary>
+
+#### **Desktop View** 
+![screenshot of Desktop headlines image](docs/Desktop%20-%20Headline.png) 
+The headlines pull out the key features of the Cobalt Building in all devices.  It is shown as a single band on large screens which becomes a 2 by 2 on smaller screens.  
+
+<br> 
+
+
 ### **Footer**  
 <details open>
 <summary></summary>
@@ -217,7 +232,7 @@ The footer always shows the address of the Cobalt Building in all screen views. 
 <br>
 
 ### **Home Page**  
-<details open> 
+<details> 
 <summary></summary>
 
 #### **Desktop View**
@@ -231,7 +246,7 @@ Small sound-bytes of text with clear headings are accompanied by striking images
 
 <br>
   
-### **The Cobalt Building Page** 
+### **Cobalt Building Page** 
 <details>
 <summary></summary> 
 
@@ -278,7 +293,7 @@ The masonry layout occupies the whole page, against the yellow (#FFBF69) backgro
 ---   
 
 
-## Tablet & Mobile View  
+## Desktop & Mobile View  
  
 ### **Desktop, Tablet & Mobile Differences**  
   
@@ -317,7 +332,7 @@ The masonry layout occupies the whole page, against the yellow (#FFBF69) backgro
 - GitHub - used to save and store all files for this website after being pushed from Gitpod
 - Userpersona - to generate typical users of this website and ensure their pain points were alleviated by the website
 - Figma – I tried to use it to create wireframes but found it difficult so resorted to pen and paper 
-- Coolors – for colour palettes- 
+- Coolors – for colour palettes
 - Adobe Color – for accessibility contrast ratios
 - Canva – for designing the logo
 - Google Fonts – font was imported from here 
@@ -375,7 +390,6 @@ The results of feature testing are as follows:
 
 - All the pages passed the W3C HTML validation.
 
-  
 <br>  
 
 ### **CSS Validation using W3C Validation** 
@@ -446,6 +460,8 @@ For Mobile
   
 ### **Bugs & Fixes**  
   
+  - There were a number of bugs which I fixed during the build phase and the two main ones are as below.
+
 | Bug | Section | Fix |
 | :----| :----| :--------:|
 | Nesting button element in an anchor element | Navigation Bar | When running the W3C validation test, I discovered that I had made an error by placing a button element inside an anchor element for the Leaseholder Portal button. Semantically, this was incorrect. I was trying to put a hyperlink in a button.  The options to solve this were presented in this [article](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link#:~:text=You%20can%20use%20the%20OnClick,to%20define%20the%20link%20address.) and I changed the code as per Option 1.  I re-checked my HTML code with W3C Validator and my site to find the issue resolved. |
@@ -492,6 +508,8 @@ For Mobile
 - I am thankful to WAES and the Code Institute for providing this unique opportunity for me to upskill and learn Digital Skills
 - Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning the technology and creating this website
 
+### **Reflections** 
 
-
-
+- This is my first website project from scratch.  Initially, I found it a giant task as none of my code would work and I was researching the subject matter so that I would create a meaningful and value-added public website.  However, once the home page began to take shape and my confidence grew in using Bootstrap, I was able to work through the rest of the website more comfortably.  
+- I have learnt how important patience and systematic thinking are for software development and this indeed does deliver results.  
+- I am also tremendously pleased that the website indeed reflects the vision I had of it at the beginning of this project!      
