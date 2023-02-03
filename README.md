@@ -242,7 +242,7 @@ The footer always shows the address of the Cobalt Building in all screen views. 
 ![screenshot of Mobile Home Page](docs/Mobile%20-%20Landing%20Page.png)  
  
 </details>
-Small sound-bytes of text with clear headings are accompanied by striking images that reflect the heading. In mobile view, these sections are displayed in a column and the images are not displayed.   
+Small sound-bytes of text with clear headings are accompanied by striking images that reflect the heading. There are links to each of the 3 other pages under the images.  the In mobile view, these sections are displayed in a column and the images and liks to the other 3 pages are not displayed.   
 
 <br>
   
