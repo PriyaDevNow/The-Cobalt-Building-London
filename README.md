@@ -21,10 +21,11 @@ The Cobalt Building is a luxury residential block of apartments which was built 
   * [Typography](#typography)
   * [Imagery](#imagery)
 * [Page Features](#page-features)
-  * [Navbar](#navbar)
-  * [Hero-Image](#hero-image)
+  * [Navigation Bar](#navbar)
+  * [Hero Image](#hero-image)
   * [Headlines](#headline)
   * [Footer](#footer)
+  * [Home Page](#home-page)
   * [Cobalt Building Page](#Cobalt-Building-page)
   * [Location Page](#Location-page)
   * [History Page](#History-page)
@@ -71,8 +72,8 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 - The website has been designed to be responsive to allow visitors to view it from a range of devices with one page flowing seamlessly into another so as to keep the users engaged on each page.   
 
 ### **First Time Visitor**
-  - A user can access each page of the site with one click via the navigation bar or by scrolling down the respective sections on the landing page.
-  - A user can see the address of the building in the footer.
+- A user can access each page of the site with one click via the navigation bar or by scrolling down the respective sections on the landing page.
+- A user can see the address of the building in the footer.
 
 ### **Returning Visitor**  
 - The returning visitor is one who is seriously interested in the building e.g. as a potential tenant or history lover.  
@@ -117,7 +118,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 - Scrolling down the page introduces the visitor to a brief, three-piece of information section about the other pages of the website. Images are visible on one side with sound-byte headed text on the other side.  The images are arranged in a diametric fashion.  
 - The page ends with the footer, stating information in four columns, the address of the building, the contact information for the Resident Management Company and the Property Manager for the building, social media links and acknowledgment of the credible sources used to compile the history section of the site.  Under this is a copyright label and the year of site build at the bottom left corner.
 - For The Cobalt Building page, the navigation bar and footer remain as before. Between these lies a heading of the page and below it - in masonry format - are the photos of an apartment’s interiors and building exterior as welll as text describing the various attributes of the building.  Information from the marketing brochure for the building and a quote from the Lord Mayor in relation to the building are highlighted.    
-- For the Location page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description of the next section which shows places around the Cobalt Building grouped into 4 categories.  These are arranged 2 categories in each of 2 rwos.  Each category is shown with anicon and text. Underneath this is an interactive Google Map with the building location pinned. There is an option to enlarge the map in a new window and find directions.  
+- For the Location page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description of the next section which shows places around the Cobalt Building grouped into 4 categories.  These are arranged 2 categories in each of 2 rwos.  Each category is shown with an icon and text. Underneath this is an interactive Google Map with the building location pinned. There is an option to enlarge the map in a new window and find directions.  
 - For the History page, the navigation and footer remain as before. The page heading is under the navigation bar with brief description. A stylised vertical timeline has been used which shows an image on one side and an image on the other.  A central dot separates the two sides.  This is followed in diametric fashion for 6 significant periods when major changes occurred in this area from 1 AD to date.   
 
 ### Wireframes  
@@ -142,7 +143,7 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
 
 ### **Color Scheme**  
 
-- I used Coolors to create a striking palette from the complementary colours of blue and yellow which capture the sense of pride and significant meaning that the site is conveying.  I combined these with an off-white shade that contrasted beautifully.
+- I used [Coolors](https://coolors.co/) to create a striking palette from the complementary colours of blue and yellow which capture the sense of pride and significant meaning that the site is conveying.  I combined these with an off-white shade that contrasted beautifully.
   
 ![Colour theme swatches](docs/coolors.co_palette_ff9f1c-ffbf69-00b4d8-0077b6-03045e%20(2).png)  
   
@@ -170,46 +171,64 @@ The Cobalt Building is a luxury residential block with 59 apartments in Bridgewa
   * Publicly available photos of apartment interiors from estate agent websites marketing apartments available for sale and rent at the Cobalt Building
   *	Royalty free stock images
   * Bootstrap icons
-I have attributed the sources of the images used in the [Credits](#credits) section of this README doc.
+- I have attributed the sources of the images used in the [Credits](#credits) section of this README doc.
 
 ---  
   
 ## Page Features  
 
-### **Navbar**   
+### **Navigation bar**   
 <details open>
 <summary></summary>  
 
-![screenshot of navbar](docs/documentation/navbar.png) 
+#### **Desktop View** ![screenshot of Desktop navbar](docs/Navbar%20Desktop.png) 
+
+#### **Mobile View** ![screenshot of Mobile navbar](docs/Navbar%20Mobile.png) 
 </details>
 This remains the same across the four pages, in portrait/landscape and mobile/tablet views, except that the Leaseholder Portal button appears on desktop view only.
   
 <br>  
 
-### **Hero Image**  
+### **Hero Image** 
+
 <details open>  
 <summary></summary>
 
-![screenshot of hero image](docs/documentation/heroimage.png)  
+#### **Desktop View** 
+![screenshot of Desktop hero image](docs/Desktop%20-%20Hero%20Image.png) 
+
+#### **Mobile View** 
+<br>
+![screenshot of Mobile hero image](docs/Mobile%20-%20Hero%20Image.png)
 </details>
-The striking hero image remains the same across all devices, with it becoming square-shaped and ‘The Cobalt’ label disappearing for smaller screens.  
+The striking hero image remains the same across all devices, in portrait/landscape and mobile/desktop views with it becoming square-shaped and ‘The Cobalt’ label disappearing for smaller screens.  
 
 <br> 
 
-
-<br>
-
-### **Pages**  
-<details> 
+### **Footer**  
+<details open>
 <summary></summary>
 
-![screenshot of ethos and images](docs/documentation/aboutus.png)  
-
-![screenshot of ethos and images](docs/documentation/dairy.png)  
-
-![screenshot ethos and images](docs/documentation/hereortogo.png)  
+#### **Desktop View** 
+![screenshot of footer](docs/Desktop%20-%20Footer.png) 
 </details>
-Small sound-bytes of text with clear headings are accompanied by striking images that reflect the heading. In tablet/mobile view, these sections are displayed in a column.  
+The footer always shows the address of the Cobalt Building in all screen views.  It expands to show the Contact form and card for the Resident Management Company and the Property Manager respectively, social media icons and Acknowledgements.  
+
+<br>
+<br>
+
+### **Home Page**  
+<details open> 
+<summary></summary>
+
+#### **Desktop View**
+![screenshot of Desktop Home Page](docs/Desktop%20-%20Landing%20Page.png)  
+
+#### **Mobile View** 
+![screenshot of Mobile Home Page](docs/Mobile%20-%20Landing%20Page.png)  
+ 
+</details>
+Small sound-bytes of text with clear headings are accompanied by striking images that reflect the heading. In mobile view, these sections are displayed in a column and the images are not displayed.   
 
 <br>
   
@@ -217,31 +236,45 @@ Small sound-bytes of text with clear headings are accompanied by striking images
 <details>
 <summary></summary> 
 
-![screenshot of The Cobalt Building page](docs/documentation/menu.png)  
+#### **Desktop View**
+![screenshot of Desktop Cobalt Building Page](docs/Desktop%20-%20Cobalt%20Building%20page.png)  
+
+#### **Mobile View** 
+![screenshot of Mobile Cobalt Building Page](docs/Mobile%20%20-%20Cobalt%20Building%20page.png)
 </details>
-The masonry layout occupies the whole page, against the yellow (#FFBF69) background (which is the exterior colour of the Cobalt Building).  Images and stylised text draw out the main attributes of the building and apartments.   The masonry layout automatically rearranges the cards to optimise the viewing experience from different size device screens.  It switches from a 3 column large screen view to a single column for mobile view.
+The masonry layout occupies the whole page, against the yellow (#FFBF69) background (which is the exterior colour of the Cobalt Building).  Images and stylised text draw out the main attributes of the building and apartments.  The masonry layout automatically rearranges the cards to optimise the viewing experience from different size device screens.  It switches from a 3 column large screen view to a single column for mobile view.  The masonry card display automatically re-arranges on each click of the page.
 
 <br>
 
 ### **Location Page**  
 <details>
 <summary></summary> 
- 
-![screenshot of contact us page](docs/documentation/contact_page.png)  
-</details>
-There are two sections. The first part I a row which shows an icon and text describing each of 4 areas of interest in the neighbourhood in a 2 top – 2 bottom rectangular grid format.  The icon is positioned to the left of the text for desktop/tablet views and switches to centere in single columnar format for mobile view.   
 
-The second section shows an embedded interactive Google Map sitting in a row.  The smallest width of this page is limited by the size of the Google Map.  
+#### **Tablet View** 
+![screenshot of Location page](docs/Tablet%20View%20-%20Location%20Page.png)  
+
+</details>
+- There are two sections. 
+- The first part consists of places in the neighbourhood of the Cobalt Building grouped together in 4 categories.  The 4 categories are then set in a 2 row by 2 in each row format.  Each category is shown by an icon and text describing each of 4 categories.  The icon is positioned to the left of the text for desktop/tablet views and switches to center in single columnar format for mobile view.   
+
+- The second section shows an embedded interactive Google Map sitting in a row.  The smallest width of this page is limited by the size of the Google Map.  
 
 <br>
 
-### **Footer**  
+### **History Page**  
 <details>
-<summary></summary>
+<summary></summary> 
 
-![screenshot of footer](docs/documentation/footer.png) 
+#### **Desktop View**
+![screenshot of Desktop History Page](docs/Desktop%20-%20History%20Page.png)  
+
+#### **Mobile View** 
+![screenshot of Mobile History Page](docs/Mobile%20-%20History%20Page.png) 
 </details>
-The footer always shows the address of the Cobalt Building and in tablet/desktop devices it shows the Contact form/card, social media icons and Acknowledgements.  
+- A stylised vertical time line is shown here with image and text on either side of a central dot arranged diametrically.  This is for larger screens.  This changes to a single columnar format of text and image for mobile views.  
+- The timeline is split into 6 sections from 1 AD.   
+
+<br>
 
 ---   
 
@@ -250,15 +283,18 @@ The footer always shows the address of the Cobalt Building and in tablet/desktop
  
 ### **Desktop, Tablet & Mobile Differences**  
   
-As most of the website code was imported from Bootstrap there was already good in-built responsivity across various screens. I had to make minimal adjustments to improve this.  However, I had to compromise by making some of the elements in the navigation bar, footer and hero image disappear for mobile views as I was not successful in styling these for responsivity.    
-### **Tablet View (iPad Mini/iPad Pro/Surface Pro)**  
-  
-![screenshots of SCOOPS website on ipad pro](docs/documentation/tablet_view.png)
+- As most of the website code was imported from Bootstrap there was already good in-built responsivity across various screens. I had to make minimal adjustments to improve this.  
+- However, I had to compromise by making some of the elements in the navigation bar, footer and hero image disappear for mobile views as I was not successful in styling these for responsivity.    
 
 
-### **Mobile View (iPhone 5/iPhone SE/iPhone XR/iPhone 12 Pro)**  
+### *** Desktop 1600x992px scaled down to scale(0.3181)**
+### *** Laptop 1280x802px scaled down to scale(0.277)**
+### *** Tablet 768x1024px scaled down to scale(0.219)**
+### *** Mobile 320x480px scaled down to scale(0.219)**
+ 
   
-![screenshot of SCOOPS website on iPhone 12 Pro](docs/documentation/mobile_view.png)
+![screenshots of website on Am I Responsive](docs/ui.dev_amiresponsive_.png)
+
 
 ---  
                               
@@ -266,9 +302,9 @@ As most of the website code was imported from Bootstrap there was already good i
 ## Future Features  
 
 - For future development, I would like to be able to:
-- show all of the footer and the button to the Leaseholder Portal in the navigation bar on all screen sizes    
-- put an embedded video showing a tour around the present Bridgewater Square
-- show testimonials from site visitors
+ * show all of the footer and the button to the Leaseholder Portal in the navigation bar on all screen sizes    
+ * put an embedded video showing a tour around the present Bridgewater Square
+ * show testimonials from site visitors
   
 ---   
   
@@ -287,6 +323,7 @@ As most of the website code was imported from Bootstrap there was already good i
 - W3 Schools – to look up code
 - Gitpod - used for version control by utilising the Gitpod terminal to commit and push to GitHub
 - GitHub - used to save and store all files for this website after being pushed from Gitpod
+- Userpersona - to generate typical users of this website and ensure their pain points were alleviated by the website
 - Figma – I tried to use it to create wireframes but found it difficult so resorted to pen and paper 
 - Coolors – for colour palettes- Adobe Color – for accessibility contrast ratios
 - Canva – for designing the logo
@@ -312,7 +349,7 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 6. Select 'root' from the drop-down folder menu
 7. Click 'Save' and after a few moments the project will have been made live and a link is visible at the top of the page
 
-![screenshot of how to deploy site on github](docs/github.com_PriyaDevNow_The-Cobalt-Building-London_settings_pages.png) 
+![screenshot of how to deploy site on github](docs/github.com_PriyaDevNow_The-Cobalt-Building-London_settings_pages.png ) 
 
 ---  
     
@@ -425,9 +462,9 @@ For Mobile
 ## Credits  
   
 ### **Content References**
-- All the content for the website has been written by myself, based on my extensive research.
-- [Code Institute](https://codeinstitute.net/ie/) for their HTML, CSS, & Bootstrap learning material.
-- [W3Schools](https://www.w3schools.com/) for additional learning material.
+- All the content for the website has been written by myself, based on my extensive research
+- [Code Institute](https://codeinstitute.net/ie/) for their HTML, CSS, & Bootstrap learning material
+- [W3Schools](https://www.w3schools.com/) for additional learning material
 - [Bootstrap example for masonry](https://getbootstrap.com/docs/5.0/examples/masonry/)
 - [Codepen](https://codepen.io/Maxalos/pen/MXXqGj) for the stylish vertical responsive timeline
 - Fred Rodgers – a neighbour and long-term Barbican resident who provided his paper on the history of the Barbican Wildlife Garden and pointed out further resources to me
@@ -451,7 +488,7 @@ For Mobile
 - I would like to express my deep gratitude to our Bootcamp instructor Richey Malhotra for his patience and guidance and most of all for setting me up with the stylised hero image for the landing page of this website
 - I am grateful for the support and help given by my Bootcamp cohort colleagues Rob, Rosie and Sharon for debugging and design   
 - I am thankful to WAES and the Code Institute for providing this unique opportunity for me to upskill and learn Digital Skills
-- Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning and creating this website
+- Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning the technology and creating this website
 
 
 
