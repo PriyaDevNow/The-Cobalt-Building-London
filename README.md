@@ -198,7 +198,6 @@ This remains the same across the four pages, in portrait/landscape and mobile/ta
 ![screenshot of Desktop hero image](docs/Desktop%20-%20Hero%20Image.png) 
 
 #### **Mobile View** 
-<br>
 ![screenshot of Mobile hero image](docs/Mobile%20-%20Hero%20Image.png)
 </details>
 The striking hero image remains the same across all devices, in portrait/landscape and mobile/desktop views with it becoming square-shaped and ‘The Cobalt’ label disappearing for smaller screens.  
@@ -284,17 +283,10 @@ The masonry layout occupies the whole page, against the yellow (#FFBF69) backgro
 ### **Desktop, Tablet & Mobile Differences**  
   
 - As most of the website code was imported from Bootstrap there was already good in-built responsivity across various screens. I had to make minimal adjustments to improve this.  
-- However, I had to compromise by making some of the elements in the navigation bar, footer and hero image disappear for mobile views as I was not successful in styling these for responsivity.    
-
-
-### *** Desktop 1600x992px scaled down to scale(0.3181)**
-### *** Laptop 1280x802px scaled down to scale(0.277)**
-### *** Tablet 768x1024px scaled down to scale(0.219)**
-### *** Mobile 320x480px scaled down to scale(0.219)**
- 
+- However, I had to compromise by making some of the elements in the navigation bar, footer and hero image disappear for mobile views as I was not successful in styling these for responsivity.  
+- See image below of the website as displayed on desktop, laptop, tablet and mobile screens from [Am I Responsive](https://ui.dev/amiresponsive)     
   
 ![screenshots of website on Am I Responsive](docs/ui.dev_amiresponsive_.png)
-
 
 ---  
                               
@@ -325,7 +317,8 @@ The masonry layout occupies the whole page, against the yellow (#FFBF69) backgro
 - GitHub - used to save and store all files for this website after being pushed from Gitpod
 - Userpersona - to generate typical users of this website and ensure their pain points were alleviated by the website
 - Figma – I tried to use it to create wireframes but found it difficult so resorted to pen and paper 
-- Coolors – for colour palettes- Adobe Color – for accessibility contrast ratios
+- Coolors – for colour palettes- 
+- Adobe Color – for accessibility contrast ratios
 - Canva – for designing the logo
 - Google Fonts – font was imported from here 
 - Google Dev Tools - to debug and for testing responsiveness 
@@ -356,50 +349,41 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 
 ## Testing  
 
-
-
-I had planned for this site to be accessible and legible on all screen sizes. I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase.   
+- I had planned for this site to be accessible and legible on all screen sizes. I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase.   
   
 The results of feature testing are as follows:  
   
 | Page | Test | Pass/Fail |
 | :----| :----| :--------:|
-| All  | Cobalt Building logo links back to homepage | Pass |
-| All  | Text colour changes to white  in navigation items when the mouse hovers | Pass |
+| All  | Cobalt Building logo links back to Home Page | Pass |
+| All  | Text colour changes to white in navigation bar items when the mouse hovers | Pass |
 | All  | Active navigation bar items are off-white text | Pass |
 | All  | Navigation links bring the user to relevant page | Pass |
-| Index  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
-| Index  | 'Contact' heading has a form and contact card which are responsive and functional | Pass |
+| All  | Footer social media icons bring the user to relevant sites via a new tab | Pass |
+| All  | 'Contact' heading has a form and contact card which are responsive and functional | Pass |
 | All  | Images and sections are responsive in different media sizes | Pass |
-| History | History items are clear and legible | Pass |
-| Contact | Google Map is interactive and opens in a new tab for a larger map | Pass |
+| History | History page text and images are clear and legible | Pass |
+| Location | Google Map is interactive and opens in a new tab for a larger map | Pass |
 
  
 ### **HTML Validation using W3C Validation**  
 <details open>
 <summary>Index/landing page HTML validation</summary>  
 
-![screenshot of index page w3c html validation for SCOOPS](docs/documentation/w3c_index.png)
+![screenshot of Home Page w3c html validation](docs/HTML%20validation.png)
 </details>   
-<details>
-<summary>Menu page HTML validation</summary>  
 
-![screenshot of menu page w3c html validation for SCOOPS](docs/documentation/w3c_menu.png)
-</details>  
-<details>
-<summary>Contact page HTML validation</summary>  
+- All the pages passed the W3C HTML validation.
 
-![screenshot of contact page w3c html validation for SCOOPS](docs/documentation/w3c_contact.png)
-</details>  
   
 <br>  
 
 ### **CSS Validation using W3C Validation** 
 
 <details open>
-<summary>SCOOPS CSS validation</summary>  
+<summary>CSS validation</summary>  
 
-![screenshot of CSS validation for SCOOPS](docs/documentation/w3c_css.png)
+![screenshot of CSS validation for the Cobalt Building website](docs/CSS%20Validation.png)
 </details>   
 
 <br>  
@@ -407,53 +391,70 @@ The results of feature testing are as follows:
 ### **Lighthouse scores via Chrome Developer Tools**   
   
 For Desktop   
-<details open>
-<summary>Lighthouse audit for Index page</summary>  
+<details>
+<summary>Lighthouse audit for Home page</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/lighthouse_index.png)
+![screenshot of Lighthouse audit for Home Page](docs/Lighthouse%20Desktop%20Home%20Page%20Metric.png)
 </details> 
-<details >
-<summary>Lighthouse audit for Menu page</summary>  
 
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/lighthouse_menu.png)
+<details >
+<summary>Lighthouse audit for Cobalt Building page</summary>  
+
+![screenshot of Lighthouse audit for Cobalt Building page](docs/Lighthouse%20Desktop%20Cobalt%20Building%20Page%20Metric.png)
 </details>
-<details >
-<summary>Lighthouse audit for Contact page</summary>  
 
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/lighthouse_contact.png)
+<details >
+<summary>Lighthouse audit for Location page</summary>  
+
+![screenshot of lighthouse audit for Location page](docs/Lighthouse%20Desktop%20Location%20metric.png)
 </details>      
+
+<details >
+<summary>Lighthouse audit for History page</summary>  
+
+![screenshot of lighthouse audit for History page](docs/Lighthouse%20Desktop%20History%20metric.png)
+</details> 
 
 <br>
   
 For Mobile   
-<details open>
-<summary>Lighthouse audit for Index page - Mobile</summary>  
+<details>
+<summary>Lighthouse audit for Home page</summary>  
 
-![screenshot of lighthouse audit for index page for SCOOPS](docs/documentation/mobileindex_lighthouse.png)
+![screenshot of Lighthouse audit for Home Page](docs/Lighthouse%20Mobile%20Home%20Page%20metric.png)
 </details> 
-<details >
-<summary>Lighthouse audit for Menu page - Mobile</summary>  
 
-![screenshot of lighthouse audit for menu page for SCOOPS](docs/documentation/mobilemenu_lighthouse.png)
+<details >
+<summary>Lighthouse audit for Cobalt Building page</summary>  
+
+![screenshot of Lighthouse audit for Cobalt Building page](docs/Lighthouse%20Mobile%20Cobalt%20Building%20metric.png)
 </details>
-<details >
-<summary>Lighthouse audit for Contact page - Mobile</summary>  
 
-![screenshot of lighthouse audit for contact page for SCOOPS](docs/documentation/mobilecontact_lighthouse.png)
+<details >
+<summary>Lighthouse audit for Location page</summary>  
+
+![screenshot of lighthouse audit for Location page](docs/Lighthouse%20Mobile%20Location%20metric.png)
 </details>      
-  
+
+<details >
+<summary>Lighthouse audit for History page</summary>  
+
+![screenshot of lighthouse audit for History page](docs/Lighthouse%20Mobile%20History%20metric.png)
+</details>
+
+<br>
   
 ### **Bugs & Fixes**  
   
 | Bug | Section | Fix |
 | :----| :----| :--------:|
-| Nesting button element & anchor element | Index/Home page | When running an early W3C validation test, I discovered that I had made an error by placing a button element inside an anchor element within my tagline section. Semantically, this was incorrect. I considered using a span element instead and upon consulting Stackoverflow and this [post](https://stackoverflow.com/questions/6393827/can-i-nest-a-button-element-inside-an-a-using-html5) I confirmed my understanding. I re-checked my HTML code with W3C Validator and my live site to find the issue resolved. |
-| br element in li element  | Menu Page |  Semantically I made an error by using the br element to make space between my menu items. On performing the W3C validation test, I became aware of this error. I considered using margin-top to fix the issue. I Googled the issue to understand my error further and came across a Stackoverflow [post](https://stackoverflow.com/questions/66564503/wrong-validation-on-element-br-in-ul-li-elements), with a comment from Quentin detailing how to use margin-top avoiding the first child element of the parent div. I used this piece of code in my CSS file to control the spacing between the menu items after understanding the code fully. |
+| Nesting button element in an anchor element | Navigation Bar | When running the W3C validation test, I discovered that I had made an error by placing a button element inside an anchor element for the Leaseholder Portal button. Semantically, this was incorrect. I was trying to put a hyperlink in a button.  The options to solve this were presented in this [article](https://testbook.com/web-development/how-to-create-an-html-button-that-acts-like-a-link#:~:text=You%20can%20use%20the%20OnClick,to%20define%20the%20link%20address.) and I changed the code as per Option 1.  I re-checked my HTML code with W3C Validator and my site to find the issue resolved. |
+| br element in li element  | Footer |  Semantically I made an error by using the br element to make space between the social icons in the footer. On performing the W3C validation test, I became aware of this error. I experimented by (1) putting separate divs for each social media icon and (2) putting each social media item in a separate ul and li combination.  Option (2) worked and the W3C Validator passed my HTML code.|
 
 ### **Unsolved Bugs** 
 
 - Some of the Location page masonry images lie on top of the footer when this page is opened first.  I have not managed to understand why this happens so I will keep researching to solve this issue.
-- The Leaseholder Portal button in the navigation bar is not responsive so I had to remove it for smaller screen views but I will try to find the reason for this and find a solution.
+- I was not able to make the the Leaseholder Portal button in the navigation bar fully responsive so I had to remove it for smaller screen views.  I will try to find out the reason for this and then find a solution.
 - The footer responsiveness also needs to be improved so that all the 4 columns fit for all screen views.  I will continue to look for a solution for this.  
 
 
@@ -468,7 +469,8 @@ For Mobile
 - [Bootstrap example for masonry](https://getbootstrap.com/docs/5.0/examples/masonry/)
 - [Codepen](https://codepen.io/Maxalos/pen/MXXqGj) for the stylish vertical responsive timeline
 - Fred Rodgers – a neighbour and long-term Barbican resident who provided his paper on the history of the Barbican Wildlife Garden and pointed out further resources to me
-- Jonathan Spengler who pointed me to Caroline Sandes' paper on the THE BARBICAN BEFORE BARBICAN: THE HOUSE, ITS HISTORY AND THE ‘IMAGINARY’ WATCHTOWER
+- Jonathan Spengler who pointed me to Caroline Sandes' 2018 academic paper on the THE BARBICAN BEFORE BARBICAN: THE HOUSE, ITS HISTORY AND THE ‘IMAGINARY’ WATCHTOWER
+- Amy Richardson - developer of SCOOPS website - for README structure
   
 ### **Media References**  
   
@@ -479,8 +481,8 @@ For Mobile
 - [The interactive MOEM AGAS Map](https://mapoflondon.uvic.ca/map.htm)
 - [Old & New London by Thornbury & Edmond book](https://www.british-history.ac.uk/old-new-london/vol1/pp1-16)
 - The 1995 Marketing Brochure for the Cobalt Building
-- [Dexters estate agents photos of apartments for rent in Bridgewater Square]
-- [Dreamtime] (https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
+- [Dexters estate agents photos of apartments for rent in Bridgewater Square](https://www.dexters.co.uk/property-lettings/flats-to-rent-in-bridgewater-square)
+- [Dreamtime](https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
 - [Google Maps](https://www.google.com/maps) for the map used in this website
 
 ### **Acknowledgements** 
