@@ -1,7 +1,7 @@
 # The Cobalt Building
 [View live project here on GitHub](https://priyadevnow.github.io/The-Cobalt-Building-London/)
 
-The Cobalt Building is a luxury residential block of apartments which was built in 1995.  It is located in an area of historic significance within the City of London whose development can be credibly traced since 1 AD.  This website was designed to showcase the Cobalt Building and the area’s heritage over the centuries.  
+The Cobalt Building is a luxury residential block of apartments which was built in 1995.  It is located in an area of historic significance within the City of London whose development can be credibly traced since 1 AD.  This website was designed to showcase the Cobalt Building and the area’s heritage over the centuries from a natural to a built-up environment.  
 
 <br>  
   
@@ -229,7 +229,6 @@ The headlines pull out the key features of the Cobalt Building in all devices.  
 The footer always shows the address of the Cobalt Building in all screen views.  It expands to show the Contact form and card for the Resident Management Company and the Property Manager respectively, social media icons and Acknowledgements.  
 
 <br>
-<br>
 
 ### **Home Page**  
 <details> 
@@ -364,7 +363,9 @@ GitHub was used to deploy the website. These were the steps taken to achieve thi
 
 ## Testing  
 
-- I had planned for this site to be accessible and legible on all screen sizes. I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase.   
+- I had planned for this site to be accessible and legible on all screen sizes. 
+
+- I extensively used Chrome Dev Tools to test, tweak and debug throughout the build phase.  Testing was also done on desktop, laptop, iPhone and Android mobile devices.   
   
 The results of feature testing are as follows:  
   
@@ -473,7 +474,7 @@ For Mobile
 - I was not able to make the the Leaseholder Portal button in the navigation bar fully responsive so I had to remove it for smaller screen views.  I will try to find out the reason for this and then find a solution.
 - The footer responsiveness also needs to be improved so that all the 4 columns fit for all screen views.  I will continue to look for a solution for this.  
 
-
+<br>
 ---  
 
 ## Credits  
@@ -497,19 +498,20 @@ For Mobile
 - [The interactive MOEM AGAS Map](https://mapoflondon.uvic.ca/map.htm)
 - [Old & New London by Thornbury & Edmond book](https://www.british-history.ac.uk/old-new-london/vol1/pp1-16)
 - The 1995 Marketing Brochure for the Cobalt Building
-- [Dexters estate agents photos of apartments for rent in Bridgewater Square](https://www.dexters.co.uk/property-lettings/flats-to-rent-in-bridgewater-square)
-- [Dreamtime](https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
+- [Dexters estate agents' photos of apartments for rent in Bridgewater Square](https://www.dexters.co.uk/property-lettings/flats-to-rent-in-bridgewater-square)
+- [Dreamtime city of London panorama photo](https://www.dreamstime.com/stock-photo-city-london-panorama-image46882167)
 - [Google Maps](https://www.google.com/maps) for the map used in this website
 
 ### **Acknowledgements** 
 
-- I would like to express my deep gratitude to our Bootcamp instructor Richey Malhotra for his patience and guidance and most of all for setting me up with the stylised hero image for the landing page of this website
-- I am grateful for the support and help given by my Bootcamp cohort colleagues Rob, Rosie and Sharon for debugging and design   
-- I am thankful to WAES and the Code Institute for providing this unique opportunity for me to upskill and learn Digital Skills
-- Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning the technology and creating this website
+- I would like to express my deepest gratitude to our Bootcamp instructor Richey Malhotra for his patience and guidance and most of all for setting me up with the stylised hero image for the home page of this website.
+- I am grateful for the support and help given by my Bootcamp cohort colleagues Rob, Rosie and Sharon for debugging and design.   
+- I am thankful to WAES and the Code Institute for providing this unique opportunity for me to upskill and learn Digital Skills.
+- Last but not least, I am grateful to my sister for looking after our parents so that I have been able to devote time to learning the technology and creating this website.
 
 ### **Reflections** 
 
-- This is my first website project from scratch.  Initially, I found it a giant task as none of my code would work and I was researching the subject matter so that I would create a meaningful and value-added public website.  However, once the home page began to take shape and my confidence grew in using Bootstrap, I was able to work through the rest of the website more comfortably.  
-- I have learnt how important patience and systematic thinking are for software development and this indeed does deliver results.  
-- I am also tremendously pleased that the website indeed reflects the vision I had of it at the beginning of this project!      
+- This is my first website project from scratch.  
+- Initially, I found it a giant task as a) none of my code would work and b) I was researching the subject matter as I wanted to create a meaningful and value-adding publically available website.  However, following the principles as taught on this Bootcamp to date (Jan 2023) and once the home page began to take shape, my confidence in coding and using Bootstrap grew.  I was then able to work through the rest of the website more comfortably.  However, I did decide, to build a demo site first and then copied that across to this site (therefore my commits are fewer here).  
+- I have learnt how important patience and systematic thinking are for software development and that such an approach does indeed deliver results.  
+- I am also tremendously pleased and excited that the website fully reflects the vision I had of it at the beginning of this project!      
